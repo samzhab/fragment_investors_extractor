@@ -1,6 +1,6 @@
 # Fragment Bidder Extractor
 
-This script extracts bidders with a balance of 1000 TON or more from HTML files located in the `fragment_market_data` directory.
+This script extracts bidders with a balance of 1000 TON or more from HTML files located in the `fragment_bid_data` directory.
 
 ## Setup Instructions
 
@@ -29,7 +29,7 @@ This script extracts bidders with a balance of 1000 TON or more from HTML files 
 
 4. Create necessary directories
     ```sh
-    mkdir fragment_market_data
+    mkdir fragment_bid_data
     ```
 
 5. Place HTML files - Place your HTML files containing market data into the fragment_market_data directory.

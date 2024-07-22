@@ -4,7 +4,7 @@ require 'logger'
 require 'byebug'
 
 THRESHOLD = 1000
-DIRECTORY = 'fragment_investors_data'
+DIRECTORY = 'fragment_bid_data'
 OUTPUT_FILE = 'eligible_bidders.yml'
 LOG_FILE = 'script.log'
 
