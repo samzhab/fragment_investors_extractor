@@ -3,7 +3,7 @@ require 'yaml'
 require 'logger'
 require 'byebug'
 
-THRESHOLD = 1000
+THRESHOLD = 500
 DIRECTORY = 'fragment_bid_data'
 OUTPUT_FILE = 'eligible_bidders.yml'
 LOG_FILE = 'script.log'

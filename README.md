@@ -30,16 +30,20 @@ This script extracts bidders with a bid of whatever is assigned in THRESHOLD or 
 4. Create necessary directories
     ```sh
     mkdir fragment_bid_data
+    mkdir fragment_search_data
     ```
 
-5. Place HTML files - Go to https://t.me/Fragment_Monitor and extract the chat and Place your HTML files containing market data into the fragment_bid_data directory.
+5. Place HTML files - Go to https://t.me/Fragment_Monitor and https://t.me/https://t.me/fragmentanalytics and extract the chats and Place your HTML files containing auction bidding data into the fragment_bid_data directory and search analytic into fragment_search_data.
 
 6. Run the script - The script will generate an eligible_bidders.yml file containing the bidders with a balance of 1000 TON or more.
 
     ```sh
-    ruby extract_bidders.rb
+    ruby ExtractEligibleBidders.rb
     ```
-
+and
+    ```sh
+    ruby ExtractFrequentSearchers.rb
+    ```
 
  ## License
  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
